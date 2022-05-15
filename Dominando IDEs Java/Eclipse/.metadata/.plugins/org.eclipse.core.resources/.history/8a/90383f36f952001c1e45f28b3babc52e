@@ -1,0 +1,24 @@
+package br.com.dio.model;
+
+public class Gato {
+    private string nome;
+    private string cor;
+    private Integer idade;
+    
+	public Gato() {	}
+	
+	public Gato(string nome, string cor, Integer idade) {
+		super();
+		this.nome = nome;
+		this.cor = cor;
+		this.idade = idade;
+	}
+	
+    
+    
+   /* public Gato(String nome; String cor; Integer idade){
+    	this.nome = nome;
+    	this.cor = cor;
+    	this.idade = idade;
+    }*/
+}

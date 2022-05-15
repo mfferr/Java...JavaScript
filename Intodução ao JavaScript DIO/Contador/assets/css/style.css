@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,900;1,300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;   
+}
+body {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(2, 31, 61);
+    border: 3px solid  #fdfcfc;
+    border-radius: 10%;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center; 
+}
+h3{
+    color: blanchedalmond;
+}
+button {
+    display: inline-block;
+    padding: 5px 30px;
+    font-size:24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 5px rgb(253, 252, 252);
+}
+button:hover {
+    background-color: #3e8e41
+}
+button:active {
+    
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#counter span{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+#counter {
+    display: flex;
+}
+#counter p{
+    display: flex;
+    font-size: 16pt;
+    margin: 0 10px;
+    padding: 15px 30px;
+}
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+footer{
+    background-color:black ;  
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    padding: 0%;
+    margin-top: 25%;
+}

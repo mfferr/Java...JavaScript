@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"/>
+    
+    <title>To do List</title>
+</head>
+<body>
+    <header>
+     <h1>To do List</h1>
+      <form id="task-form">
+           <input type="text"   id="task-input" placeholder=" Digite sua tarefa aqui "/>
+           <input type="submit" id="task-submit"  value= "Adicionar"/>
+        <div class="select">
+           <select name="filtro" class="filter-list">
+               <option>Filtrar por:</option>
+               <option value="all">Todas</option>
+               <option value="completed">Completas</option>
+               <option value="uncompleted">Incompletas</option>
+           </select>
+        </div>
+      </form>
+    </header>
+    <main>
+       <section class="task-list">
+           <h2>Tarefas</h2>
+           <div id="tasks"></div>
+       </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
